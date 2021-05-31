@@ -56,7 +56,7 @@ def _check_member(client, message):
           ]]
           reply_markup = InlineKeyboardMarkup(buttons)
           sent_message = message.reply_text(
-              "{}, you are **not subscribed** to my channel yet. Please join and **press the button below** to unmute yourself.".format(message.from_user.mention),
+              "{},👇താഴെ കൊടുത്തിരിക്കുന്ന ചാനലിൽ ജോയിൻ ചെയ്‍താൾ മാത്രമേ നിങ്ങൾക്ക് ഈ ഗ്രൂപ്പിൽ മെസ്സേജ് അയക്കാൻ സാധിക്കുള്ളൂ.".format(message.from_user.mention),
               disable_web_page_preview=True,
               reply_markup=reply_markup
           )
